@@ -1,0 +1,38 @@
+print('*******sathyam cinemas*******')
+print('Now running \n LEO \n JAILER')
+Moviename=input('Enter the movie name :')
+if Moviename=='LEO':
+    print('1 premium seat')
+    print('2 First class')
+    print('3 second class')
+    seat=int(input('Enter the seat type:'))
+    if seat==1:
+        a=int(input('Enter the no.of seat:'))
+        print(a,'premium seat has been booked')
+    elif seat==2:
+        b=int(input('Enter the no.of seat:'))
+        print(b,'first class seat has been booked')
+    elif seat==3:
+          c=int(input('Enter the no.of seat:'))
+          print (c,'second class seat has been booked sucessfully')
+    else:
+        print('select the correct seats')
+if Moviename=='JAILER':
+    print('1 premium seat')
+    print('2 First class')
+    print('3 second class')
+    seat=int(input('Enter the seat type:'))
+    if seat==1:
+        a=int(input('Enter the no.of seat:'))
+        print(a,'premium seat has been booked')
+    elif seat==2:
+        b=int(input('Enter the no.of seat:'))
+        print(b,'first class seat has been booked')
+    elif seat==3:
+          c=int(input('Enter the no.of seat:'))
+          print (c,'second class seat has been booked sucessfully')
+    else:
+        print('select the correct seats')
+
+else:
+     print('select the running movie')
